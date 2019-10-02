@@ -41,7 +41,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 logo_bar">
             <div class="logo">
-              <a href="/eacadd">
+              <a href="/">
                 <img src="<?php echo esc_attr( get_template_directory_uri()) ?>/images/logo.jpg" width="446" height="124" alt="">    
           </a>
             </div>     
