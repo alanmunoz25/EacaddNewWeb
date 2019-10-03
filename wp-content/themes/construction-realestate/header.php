@@ -75,6 +75,7 @@
               < ?php }?>
             </div> -->
             <div class="col-lg-4 col-md-4">
+            <?php echo do_shortcode('[gtranslate]'); ?>
               <?php if( get_theme_mod( 'construction_realestate_number','' ) != '') { ?>
                 <div class="row">
                   <div class="col-lg-2 col-md-4 p-0">
