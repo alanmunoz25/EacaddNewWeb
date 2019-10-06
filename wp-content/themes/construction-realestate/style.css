@@ -50,6 +50,14 @@ h6{
   font-weight: bold;
   color: #435061;
 }
+.widget_type_2 {
+    border: 1px solid #e6eaee;
+    border-radius: 4px;
+    max-width: 280px !important; 
+    background-color: #ffffff;
+    position: relative;
+    font-family: "Exo 2", sans-serif;
+}
 p{ 
   margin:0;
   padding:0;

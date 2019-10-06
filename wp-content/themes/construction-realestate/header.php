@@ -47,8 +47,9 @@
             </div>     
           </div>
           <div class="col-lg-8 col-md-8 row contact">
-            <div class="col-lg-8 col-md-8">
+            <div class="col-lg-12 col-md-12"> <p style="float: right;">
             ARQUITECTURA, INGENIERÍA Y DISEÑO DE INTERIORES Y CONSTRUCCIONES
+          </p>
               <?php if( get_theme_mod( 'construction_realestate_location','' ) != '') { ?>
                 <div class="row">
                   <div class="col-lg-2 col-md-4 p-0">
@@ -74,8 +75,9 @@
                 </div>
               < ?php }?>
             </div> -->
+            <div class="col-lg-8 col-md-8"></div>
             <div class="col-lg-4 col-md-4">
-            <?php echo do_shortcode('[gtranslate]'); ?>
+            <p style="float: right;"><?php echo do_shortcode('[gtranslate]'); ?></p>
               <?php if( get_theme_mod( 'construction_realestate_number','' ) != '') { ?>
                 <div class="row">
                   <div class="col-lg-2 col-md-4 p-0">
