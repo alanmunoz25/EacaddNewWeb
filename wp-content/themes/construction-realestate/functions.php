@@ -418,10 +418,3 @@ require get_template_directory() . '/inc/dashboard/get_started_info.php';
 
 
 
-
-add_filter( 'rewrite_rules_array', 'show_rewrite_rules' );
- 
-function show_rewrite_rules( $rules ) {
-  echo nl2br( var_export( $rules, true ) );
-  die;
-}
